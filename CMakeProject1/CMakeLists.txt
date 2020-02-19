@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 include_directories($ENV{UniversalCRTSdkDir}/Include/ucrt)
-include_directories($ENV{UniversalCRTSdkDir}/Include/10.0.10056.0/ucrt)
+#include_directories($ENV{UniversalCRTSdkDir}/Include/10.0.10056.0/ucrt)
 
 # 이 프로젝트의 실행 파일에 소스를 추가합니다.
 add_executable (CMakeProject1 WIN32 
